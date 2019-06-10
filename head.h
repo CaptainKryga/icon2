@@ -54,8 +54,17 @@ char*   get_undead();
 char    *get_alliance();
 char    *get_horde();
 char*   get_elf();
-
-
-
+int     *get_alliance_black();
+int     *get_alliance_white();
+int     *get_alliance_grey();
+int     *get_horde_black();
+int     *get_horde_white();
+int     *get_horde_grey();
+int     *get_elf_black();
+int     *get_elf_white();
+int     *get_elf_grey();
+int     *get_undead_black();
+int     *get_undead_white();
+int     *get_undead_grey();
 
 #endif
